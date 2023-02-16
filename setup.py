@@ -11,7 +11,7 @@ setup(
     py_modules=["streamlit_google_oauth"],
     packages=["streamlit_google_oauth"],
     install_requires=[
-        "protobuf",
+        "protobuf<=3.20.x",
         "streamlit",
         "httpx-oauth",
         "typing-extensions",
